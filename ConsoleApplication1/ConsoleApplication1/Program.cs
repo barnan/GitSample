@@ -11,7 +11,11 @@ namespace Sample1
         public void Add()
         {
         }
-        
+
+        public void Div()
+        {
+        }
+
     }
 
 
