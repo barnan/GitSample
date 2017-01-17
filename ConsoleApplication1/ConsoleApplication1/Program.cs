@@ -28,6 +28,8 @@ namespace Sample1
         {
             throw new NotImplementedException();
         }
+
+        //hehhe
     }
 
     interface ICalc
