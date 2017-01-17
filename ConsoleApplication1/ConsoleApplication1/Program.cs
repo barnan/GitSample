@@ -12,6 +12,9 @@ namespace Sample1
         {
             //hehe
             //brühühü
+
+            // task 7- es változtatás 1
+
         }
     }
 }
