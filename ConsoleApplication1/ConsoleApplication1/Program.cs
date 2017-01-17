@@ -14,6 +14,7 @@ namespace Sample1
             //brühühü
 
             // task 7- es változtatás 1
+            // task 7- es változtatás 2
 
         }
     }
