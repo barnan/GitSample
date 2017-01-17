@@ -10,6 +10,7 @@ namespace Sample1
     {
         public void Add()
         {
+            Console.WriteLine("add");
         }
 
         public void Div()
