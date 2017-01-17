@@ -15,6 +15,7 @@ namespace Sample1
 
             // task 7- es változtatás 1
             // task 7- es változtatás 2
+            // task 7- es változtatás 3
 
         }
     }
