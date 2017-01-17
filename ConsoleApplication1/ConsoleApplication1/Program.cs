@@ -24,6 +24,10 @@ namespace Sample1
         {
         }
 
+        public void Mult()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     interface ICalc
@@ -32,6 +36,8 @@ namespace Sample1
         void Div();
         void DivB();
         void DivD();
+
+        void Mult();
     }
 
 
