@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Sample1
 {
+    public class Calc
+    {
+        
+    }
+
+
     class Program
     {
         static void Main(string[] args)
