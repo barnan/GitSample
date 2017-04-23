@@ -23,6 +23,17 @@ namespace Sample1
         void writeTo();
     }
 
+
+    public class AlapClass : IAlapfunkcio1
+    {
+        public void WriteTo()
+        {
+            Console.WriteLine("Functionality of IAlapfunkció1");
+        }
+    }
+
+
+
     class Program
     {
         static void Main(string[] args)
