@@ -29,6 +29,7 @@ namespace Sample1
         public void WriteTo()
         {
             Console.WriteLine("Functionality of IAlapfunkció1");
+            Console.WriteLine("Egy kis plusz kiírás");
         }
     }
 
