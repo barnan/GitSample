@@ -60,6 +60,14 @@ namespace Sample1
     }
 
 
+    public class Extrafunkcio: IExtrafunkcio1
+    {
+        public void ExtreWriteTo()
+        {
+            Console.WriteLine("Extra write to...");
+        }
+    }
+
 
     class Program
     {
