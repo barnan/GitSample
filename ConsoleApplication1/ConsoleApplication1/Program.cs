@@ -12,19 +12,19 @@ namespace Sample1
         void WriteTo();
     }
 
-    public interface IAlapfunkció2
+    public interface IAlapfunkcio2
     {
         void WriteTo();
     }
 
 
-    public interface IAlapfunkció3
+    public interface IAlapfunkcio3
     {
         void writeTo();
     }
 
 
-    public class AlapClass : IAlapfunkcio1
+    public class AlapClass1 : IAlapfunkcio1
     {
         public void WriteTo()
         {
@@ -32,6 +32,14 @@ namespace Sample1
         }
     }
 
+
+    public class AlapClass2 : IAlapfunkcio2
+    {
+        public void WriteTo()
+        {
+            Console.WriteLine("Functionality of IAlapfunkció2");
+        }
+    }
 
 
     class Program
