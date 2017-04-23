@@ -16,14 +16,12 @@ namespace Sample1
     {
         void WriteTo();
     }
-
-
+    
     public interface IAlapfunkcio3
     {
         void WriteTo();
     }
-
-
+    
     public class AlapClass1 : IAlapfunkcio1
     {
         public void WriteTo()
@@ -31,8 +29,7 @@ namespace Sample1
             Console.WriteLine("Functionality of IAlapfunkció1");
         }
     }
-
-
+    
     public class AlapClass2 : IAlapfunkcio2
     {
         public void WriteTo()
@@ -48,6 +45,20 @@ namespace Sample1
             Console.WriteLine("Functionality of IAlapfunkció3");
         }
     }
+
+
+    public interface IExtrafunkcio1
+    {
+        void ExtreWriteTo();
+    }
+
+    public interface IExtrafunkcio2
+    {
+        void ExtreWriteTo();
+        void PushTheLimit1();
+        void PushTheLimit2();
+    }
+
 
 
     class Program
