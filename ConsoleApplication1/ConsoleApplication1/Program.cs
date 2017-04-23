@@ -20,7 +20,7 @@ namespace Sample1
 
     public interface IAlapfunkcio3
     {
-        void writeTo();
+        void WriteTo();
     }
 
 
@@ -38,6 +38,14 @@ namespace Sample1
         public void WriteTo()
         {
             Console.WriteLine("Functionality of IAlapfunkció2");
+        }
+    }
+
+    public class AlapClass3 : IAlapfunkcio3
+    {
+        public void WriteTo()
+        {
+            Console.WriteLine("Functionality of IAlapfunkció3");
         }
     }
 
